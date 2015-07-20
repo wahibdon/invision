@@ -1,0 +1,127 @@
+/* --------------- Main Menu Bartik Plus additions ------------ */
+
+#main-menu .menu li {
+  position: relative;
+}
+#main-menu ul.menu {
+  margin: 0;
+}
+
+
+#main-menu .menu ul {
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 73px;
+  left: 1px;
+  z-index: 1000;
+  display: none;
+  box-shadow: 2px 2px 5px gray;
+}
+/* Hack to keep menus from dropping behind the sidebars */
+#header {
+  z-index: 1;
+  position: relative;
+}
+#main-menu .menu ul li {
+  margin: 0;
+  padding: 0;
+  /* Tweak for IE */
+  clear: both;
+}
+/* Default background color for menu items */
+#main-menu .menu ul li,
+#main-menu .menu ul li a {
+  background: #EEF;
+}
+/* indicate menu has children with right arrow bg image */
+#main-menu .menu ul li.expanded a {
+  background: transparent url('../images/icn-arrow-right-light.png') no-repeat 96.5% 50%;
+}
+/* make sure children of expanded menus don't inherit indicator */
+#main-menu .menu li.expanded li.leaf a {
+  background: white;
+  color:black;
+}
+#main-menu .menu li.expanded li.leaf a:hover {
+  background: #0079AE;
+  color:white;
+}
+/* hover state for all submenu links */
+#main-menu .menu ul li a:hover,
+#main-menu .menu ul li a:visited:hover {
+  background: #0079AE;
+  color: #fff!important;
+}
+/* Second level links */
+#main-menu .menu ul li a,
+#main-menu .menu ul li a:visited,
+#main-menu .menu li.active-trail ul li a,
+#main-menu .menu .sfHover ul li a {
+  border-bottom: none;
+  height:35px;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  width: 300px;
+  text-decoration: none;
+  -khtml-border-radius-topleft: 0;
+  -khtml-border-radius-topright: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-top:0;
+  text-transform:capitalize;
+}
+/* active submenu link */
+#main-menu .menu li.active-trail ul li a.active {
+  color: #000;
+}
+#main-menu .menu ul ul {
+  z-index: 1001;
+  margin: 0;
+  left: 14.5em;
+  top: 0;
+}
+#footer-wrapper a {
+	color:black !important;	
+}
+#logo {
+	position:relative;
+	z-index:7;	
+}
+#main-wrapper {
+	margin-top:15px;	
+	min-height:100px;
+}
+a:hover { 
+	color:black;
+}
+.featured #main-menu-links li a:active, .featured #main-menu-links li a.active {
+	background:#0079AE;	
+}
+#featured {
+	background:white;
+	border:none;
+	padding:0px;	
+}
+#main {
+	margin-bottom:0;	
+}
+#footer-wrapper {
+	padding:0px;
+	margin-top:-40px;	
+}
+#footer .block .content {
+	padding:0;	
+}
+#main-menu .menu ul li, #main-menu .menu ul li a {
+	background:white;	
+}
+#main-menu .menu ul ul {
+	left:320px;	
+}

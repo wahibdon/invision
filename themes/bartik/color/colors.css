@@ -1,0 +1,133 @@
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #3b3b3b;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+#page,
+#main-wrapper,
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background: #ffffff;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+#header {
+  background-color: #48a9e4;
+  background-image: -moz-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: -ms-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: -o-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0779bf), color-stop(1, #48a9e4));
+  background-image: -webkit-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+}
+a {
+  color: #0071B3;
+}
+a:hover,
+a:focus {
+  color: #018fe2;
+}
+a:active {
+  color: #23aeff;
+}
+.sidebar .block {
+  background-color: #f6f6f2;
+  border-color: #f9f9f9;
+}
+#page-wrapper,
+#footer-wrapper {
+  background: #292929;
+}
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #fffeff;
+}
+@font-face {
+	font-family: 'OttFont';
+	src: url('http://ottcom.com/otter2.0/fonts/HN.eot'); /* IE9 Compat Modes */
+	src: url('http://ottcom.com/otter2.0/fonts/HN.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('http://ottcom.com/otter2.0/fonts/HN.woff') format('woff'), /* Modern Browsers */
+	     url('http://ottcom.com/otter2.0/fonts/HN.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('http://ottcom.com/otter2.0/fonts/HN.svg#svgOttFont') format('svg'); /* Legacy iOS */
+	}
+@font-face {
+	font-family: 'OttFont Thin';
+	src: url('http://ottcom.com/otter2.0/fonts/HNThin.eot'); /* IE9 Compat Modes */
+	src: url('http://ottcom.com/otter2.0/fonts/HNThin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('http://ottcom.com/otter2.0/fonts/HNThin.woff') format('woff'), /* Modern Browsers */
+	     url('http://ottcom.com/otter2.0/fonts/HNThin.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('http://ottcom.com/otter2.0/fonts/HNThin.svg#svgOttFontThin') format('svg'); /* Legacy iOS */
+	}
+	@font-face {
+	font-family: 'OttFont Bold';
+	src: url('http://ottcom.com/otter2.0/fonts/HNB.eot'); /* IE9 Compat Modes */
+	src: url('http://ottcom.com/otter2.0/fonts/HNB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('http://ottcom.com/otter2.0/fonts/HNB.woff') format('woff'), /* Modern Browsers */
+	     url('http://ottcom.com/otter2.0/fonts/HNB.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('http://ottcom.com/otter2.0/fonts/HNB.svg#svgOttFontBold') format('svg'); /* Legacy iOS */
+	}
+	@font-face {
+	font-family: 'OttFont Light';
+	src: url('http://ottcom.com/otter2.0/fonts/HNL.eot'); /* IE9 Compat Modes */
+	src: url('http://ottcom.com/otter2.0/fonts/HNL.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('http://ottcom.com/otter2.0/fonts/HNL.woff') format('woff'), /* Modern Browsers */
+	     url('http://ottcom.com/otter2.0/fonts/HNL.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('http://ottcom.com/otter2.0/fonts/HNL.svg#svgOttFontLight') format('svg'); /* Legacy iOS */
+	}
+	@font-face {
+	font-family: 'OttFont UltraLight';
+	src: url('http://ottcom.com/otter2.0/fonts/HNUL.eot'); /* IE9 Compat Modes */
+	src: url('http://ottcom.com/otter2.0/fonts/HNUL.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('http://ottcom.com/otter2.0/fonts/HNUL.woff') format('woff'), /* Modern Browsers */
+	     url('http://ottcom.com/otter2.0/fonts/HNUL.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('http://ottcom.com/otter2.0/fonts/HNUL.svg#svgOttFontUltraLight') format('svg'); /* Legacy iOS */
+	}
+	body, input {
+		font-family:'OttFont Light';
+		color:white;	
+	}
+	h1, h2, h3, h4 {
+		font-family:'OttFont Bold';	
+		color:white
+	}
+	p {
+		color:white;	
+	}
+  #header {
+	background:#31323c;  
+	height:40px;
+  }
+  #logo {
+	padding:0px;  
+  }
+  #page, #page-wrapper, #main-wrapper, #footer-wrapper {
+	background:#454755;  
+  }
+  #breadcrumb {
+	display:none;  
+  }
+  #header, #footer-wrapper, #skip-link, ul.contextual-links, ul.links, ul.primary, .item-list .pager, div.field-type-taxonomy-term-reference, div.messages, div.meta, p.comment-time, table, .breadcrumb {
+	font-family:'OttFont Light';  
+  }
+  #secondary-menu {
+	  position:static;
+	  width:700px;
+  }
+  #secondary-menu-links {
+	  float:left;
+	  font-family:'OttFont Bold';
+  }
