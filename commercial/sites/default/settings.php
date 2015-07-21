@@ -215,7 +215,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'invisio1_drupal',
+      'database' => 'invisio1_commercial',
       'username' => 'invisio1_root',
       'password' => 'UofL2013!',
       'host' => 'localhost',
