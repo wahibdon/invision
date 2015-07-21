@@ -1,0 +1,87 @@
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif;text-align:center}
+p{margin:0 10px 10px}
+a{padding:5px; text-decoration:none; color:#000000;}
+div#header{
+	background-color:#F3F2ED;
+	height: 110px;
+}
+div#header h1{height:120px;line-height:120px;margin:0;padding-left:10px;}
+div#container{
+	text-align:left;
+	background-color: #FFFFFF;
+}
+div#content p{line-height:1.4}
+div#navigation{background:#F6F0E0;}
+div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
+div#navigation li{margin-bottom:5px;}
+div#extra{
+	background:#CCC8B3;
+	height: 920px;
+}
+div#footer{background:#BFBD93;}
+div#footer p{margin:0;padding:5px 10px}
+div#container{
+	width:900px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #FFFFFF;
+}
+div#content{
+	float:right;
+	width:680px;
+	background-color: #FFFFFF;
+	height: 980px;
+}
+div#navigation{float:left;width:220px}
+div#extra{float:left;clear:left;width:220px}
+img_lft {
+	margin-left: 8px;
+}
+#div_img_lft {
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+div#footer{clear:both;width:100%}
+
+#picture {width:300px; height: 300px; background-color:#ffffff;}
+ #picture a.small, #picture a.small:visited { display:block; width:240px; height:146px; text-decoration:none; background:#ffffff; top:0; left:0; border:0;}
+ #picture a img {border:0;}
+ #picture a.small:hover {text-decoration:none; background-color:#ffffff; color:#000000;}
+ #picture a .large {display:block; position:absolute; width:0; height:0; border:0; top:0; left:0;}
+ #picture a.small:hover .large {display:block; position:fixed; top: 70px; left:100px; width: auto; height: auto;
+ }
+
+#picture2 {width:300px; height: 300px; background-color:#ffffff;}
+ #picture2 a.small, #picture a.small:visited { display:block; width:240px; height:146px; text-decoration:none; background:#ffffff; top:0; left:0; border:0;}
+ #picture2 a img {border:0;}
+ #picture2 a.small:hover {text-decoration:none; background-color:#ffffff; color:#000000;}
+ #picture2 a .large {display:block; position:absolute; width:0; height:0; border:0; top:0; left:0;}
+ #picture2 a.small:hover .large {display:block; position:fixed; top: 70px; left:700px; width: auto; height: auto;
+ }
+div#content_silikal {
+
+	float:right;
+	width:680px;
+	background-color: #FFFFFF;
+	height: 780px;
+}
+div#content_epoxy_glry {
+
+	float:right;
+	width:680px;
+	background-color: #FFFFFF;
+	height: 1600px;
+}
+div#content_pol_galry {
+
+	float:right;
+	width:680px;
+	background-color: #FFFFFF;
+	height: 1400px;
+}

@@ -1,0 +1,143 @@
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #3b3b3b;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+#page,
+#main-wrapper,
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background: #ffffff;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+#header {
+  background-color: #48a9e4;
+  background-image: -moz-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: -ms-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: -o-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0779bf), color-stop(1, #48a9e4));
+  background-image: -webkit-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+}
+a {
+  color: #0071B3;
+}
+a:hover,
+a:focus {
+  color: #018fe2;
+}
+a:active {
+  color: #23aeff;
+}
+.sidebar .block {
+  background-color: #f6f6f2;
+  border-color: #f9f9f9;
+}
+#page-wrapper,
+#footer-wrapper {
+  background: #292929;
+}
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #fffeff;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../../fonts/cicle_fina-webfont.eot');
+    src: url('../../../fonts/cicle_fina-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/cicle_fina-webfont.woff') format('woff'),
+         url('../../../fonts/cicle_fina-webfont.ttf') format('truetype'),
+         url('../../../fonts/cicle_fina-webfont.svg#ciclefina') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../../../fonts/cicle_gordita-webfont.eot');
+    src: url('../../../fonts/cicle_gordita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/cicle_gordita-webfont.woff') format('woff'),
+         url('../../../fonts/cicle_gordita-webfont.ttf') format('truetype'),
+         url('../../../fonts/cicle_gordita-webfont.svg#ciclegordita') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'GothamSemi';
+    src: url('../../../fonts/cicle_semi-webfont.eot');
+    src: url('../../../fonts/cicle_semi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/cicle_semi-webfont.woff') format('woff'),
+         url('../../../fonts/cicle_semi-webfont.ttf') format('truetype'),
+         url('../../../fonts/cicle_semi-webfont.svg#ciclesemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	body {
+		font-family:'Gotham';
+		color:white;
+		font-size:16px;	
+	}
+	h1, h2, h3, h4 {
+		font-family:'GothamBold';	
+		color:white
+	}
+	p {
+		color:white;	
+	}
+  #header {
+	background:#31323c;  
+	height:40px;
+  }
+  #logo {
+	padding:0px;  
+  }
+  #page, #page-wrapper, #main-wrapper, #footer-wrapper {
+	background:#454755;  
+  }
+  #breadcrumb {
+	display:none;  
+  }
+  #header, #footer-wrapper, #skip-link, ul.contextual-links, ul.links, ul.primary, .item-list .pager, div.field-type-taxonomy-term-reference, div.messages, div.meta, p.comment-time, table, .breadcrumb {
+	font-family:'Gotham';  
+  }
+  #secondary-menu {
+	  position:static;
+	  width:700px;
+  }
+  #secondary-menu-links {
+	  float:left;
+	  font-family:'GothamBold';
+  }
+  input {
+	font-family:'Gotham';  
+  }
+  #first-time {
+	display:none;
+  }
+  table {
+	font-size:16px;  
+  }
+  input[type=submit] {
+	color: white;
+background: red;
+border: 0;
+padding: 6px;
+font-family:'GothamBold';  
+  }
