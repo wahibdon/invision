@@ -27,3 +27,6 @@ Drupal.behaviors.maroniteBehavior = {
   });
   }
 };
+window.addEventListener('load', function(){
+  document.getElementById(window.location.host.split('.')[0]).style.color = '#0079AE';
+});
