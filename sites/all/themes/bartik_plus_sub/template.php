@@ -1,6 +1,7 @@
 <?php
 
 function bartik_plus_links($variables) {
+	print_r($variables);
   if (array_key_exists('id', $variables['attributes']) && $variables['attributes']['id'] == 'main-menu-links') {
   	$pid = variable_get('menu_main_links_source', 'main-menu');
 	$tree = menu_tree($pid);
