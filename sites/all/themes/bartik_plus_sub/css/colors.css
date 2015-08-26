@@ -56,10 +56,6 @@ a:active {
 #secondary-menu-links li a {
   color: #fffeff;
 }
-div#inter-links > a {
-  font-size: 14px;
-  color: #bcbcbc;
-}
 @font-face {
     font-family: 'Gotham';
     src: url('/fonts/Invision.eot');
@@ -163,6 +159,7 @@ cursor:pointer;
 border-top-right-radius: 0px;
 background:none;
 font-size:12px;
+padding-top:18px;
 text-transform:uppercase;  
   }
   #main-menu .menu ul li a {
